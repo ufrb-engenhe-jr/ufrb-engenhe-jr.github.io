@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 0%;
+}
+
+
+
 
 ::-webkit-scrollbar {
     height: 3px;
@@ -175,3 +181,36 @@
         max-width: 100%;
     }
 }
+
+
+footer{
+    background-color: rgba(145, 22, 49, 0);
+    /* margin-top: 90%; */
+    padding: 5px;
+}
+footer:hover{
+    background-color: rgb(145, 22, 49);
+    /* margin-top: 90%; */
+    padding: 10px;
+    transition: 0.3s;
+}
+#container-instagram, #container-facebook{
+    display: inline-block;
+}
+#container-instagram{
+    margin-left: 45%;
+}
+#instagram{ 
+    width: 40px;
+    height: 40px;
+}
+#facebook{
+    width: 40px;
+    height: 40px;
+}
+#instagram:hover, #facebook:hover{
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+}
+
